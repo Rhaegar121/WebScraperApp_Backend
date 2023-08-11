@@ -12,6 +12,10 @@ class Api::ProductsController < ApplicationController
     scraper = Scraper.new(url)
     scraper.scrape_and_save
     
-    render json: { message: 'Scraping and saving complete' }
+    if scraper
+      render json: { message: 'Product created successfully' }, status: 200
+    else
+      render json: { message: 'Unable to create product' }, status: 400
+    end
   end
 end
