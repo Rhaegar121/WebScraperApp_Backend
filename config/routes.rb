@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   namespace :api do
-    resources :products, only: %i[index show create]
-    resources :categories, only: %i[index]
+    resources :categories, param: :name, only: %i[show]
+    resources :products, only: %i[create]
   end
 end

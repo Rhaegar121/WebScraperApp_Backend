@@ -1,11 +1,11 @@
 class Api::ProductsController < ApplicationController
   skip_before_action :verify_authenticity_token
-  
-  def index
-  end
 
-  def show
-  end
+  # def index
+  #   product = Product.last
+  #   image = product.first.image
+  #   render json: { product: product, image: image}, status: 200
+  # end
 
   def create
     url = params[:url]

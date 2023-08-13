@@ -1,0 +1,18 @@
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/home/rhaegar121/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-mbjg4j sitelibdir\=./.gem.20230812-13769-mbjg4j clean
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-mbjg4j sitelibdir\=./.gem.20230812-13769-mbjg4j
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-mbjg4j sitelibdir\=./.gem.20230812-13769-mbjg4j install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20230812-13769-mbjg4j/skiptrace/internal
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-mbjg4j sitelibdir\=./.gem.20230812-13769-mbjg4j clean

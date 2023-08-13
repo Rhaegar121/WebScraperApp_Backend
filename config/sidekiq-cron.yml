@@ -1,0 +1,8 @@
+:queues:
+  - default
+
+:schedule:
+  weekly_refresh:
+    # cron: ['0', '0', '*', '*', '0']
+    cron: "0 0 * * 0"
+    class: RefreshExpiredProductsJob
