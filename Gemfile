@@ -72,3 +72,4 @@ group :test do
 end
 
 # gem 'sidekiq-cron'
+gem 'rack-cors'
