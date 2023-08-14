@@ -33,7 +33,7 @@ end
 WebMock.disable_net_connect!(allow_localhost: true) 
 RSpec.configure do |config|
   config.before(:each) do
-    file_path = File.expand_path('../page.html', __dir__)
+    file_path = File.expand_path('./page.html', __dir__)
     stub_request(:any, /www\.flipkart\.com/)
       .to_return(status: 200, body: File.read(file_path))
   end

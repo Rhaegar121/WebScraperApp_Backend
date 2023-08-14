@@ -17,7 +17,7 @@ class Scraper
         price = doc.css('._1YokD2').css('.dyC4hf').css('._30jeq3')&.text
         year = doc.css('#swatch-0-model_year a')&.text
         size = doc.css('#swatch-0-display_size a')&.text
-        image = doc.css('._1YokD2').css('._1AtVbE').css('._1BweB8').css('img').attr('src').value
+        image = doc.css('._1YokD2').css('._1AtVbE').css('._1BweB8').css('img')&.attr('src')&.value
 
         category = Category.find_or_create_by(name: category_name)
 
