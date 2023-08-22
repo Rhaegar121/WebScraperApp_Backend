@@ -1,0 +1,18 @@
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/rhaegar121/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-r6o77j sitelibdir\=./.gem.20230812-13769-r6o77j clean
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-r6o77j sitelibdir\=./.gem.20230812-13769-r6o77j
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-r6o77j sitelibdir\=./.gem.20230812-13769-r6o77j install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20230812-13769-r6o77j/bootsnap
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-r6o77j sitelibdir\=./.gem.20230812-13769-r6o77j clean

@@ -1,0 +1,19 @@
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/rhaegar121/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-8o5zs2 sitelibdir\=./.gem.20230812-13769-8o5zs2 clean
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-8o5zs2 sitelibdir\=./.gem.20230812-13769-8o5zs2
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-8o5zs2 sitelibdir\=./.gem.20230812-13769-8o5zs2 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230812-13769-8o5zs2/debug
+
+current directory: /mnt/c/users/95942/onedrive/desktop/programming/interview/webScraperApp/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230812-13769-8o5zs2 sitelibdir\=./.gem.20230812-13769-8o5zs2 clean
